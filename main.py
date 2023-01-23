@@ -13,7 +13,7 @@ df['year'] = df['date'].dt.year
 def load_overall_analysis():
     st.title('Overall Analysis')
 
-    # total invested amount
+    # total invested amountssdf
     total = round(df['amount'].sum())
 
 
